@@ -1,0 +1,41 @@
+1. Data Collection 
+csv/excel - the number rows 1048576 -structured data
+pipeline -    mysql - snowflake - data source 
+url - webscrap 
+json - unstructured data
+
+2. Data Cleaning
+- Impurities/duplicates/outliers/data types -> Noise in the dataset
+- Categorical / Numerical Information  -> Multivariate analysis
+- Scaling ---> Standard Scalar, MinMax Scalar, Robust Scalar
+	                          0 to 1
+				  1:1000
+				  0:200
+				  1,2,3,4
+- Skewness, Kurtosis -> Quantitative vs Qualitative analysis -- 
+  EDA ---> Univariate analysis -> Mean,Median,Mode
+      ---> Bi variate Analysis -> 
+  Data Imbalance - SMOTE Technique  
+
+- Encoding  -> ..........
+- Missing Values in the columns ---> 5% 17 % , 20%....
+ ---> Imputing technique  ----> KNN Imputer 
+
+3. Data transformation
+- distributed dataset/non normal distributed dataset
+                      - box cox technique used
+		      - yeo jhonson model
+
+- parametric model / non parametric model 
+   - Huber Regressor and Ransec Regressor
+   - 			
+- Feature engineering
+- 
+
+4. Build model 
+-  K-fold technqiue                5 4 3 2 1
+- hyper paramter tune model
+
+5. Save model and deploy 
+
+
